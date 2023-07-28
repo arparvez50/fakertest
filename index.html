@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Faker Play - Make something </title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+            integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+      <div class="container">
+            <div class="row hero-section">
+                  <h2>Fake Data Generator</h2>
+                  <p>Create fake data for your project.</p>
+            </div>
+      </div>
+      <div class="container">
+            <div class="row data-select">
+                  <div class="col-md-6">
+                        <h3>Which type of data you need ?</h3>
+                        <form class="form-group">
+                              <div class="form-check">
+                                    <input class="form-check-input name" type="checkbox" value="name" id="name">
+                                    <label class="form-check-label" for="name">Name</label>
+                              </div>
+                              <div class="form-check">
+                                    <input class="form-check-input jobTitle" type="checkbox" value="jobTitle"
+                                          id="jobTitle">
+                                    <label class="form-check-label" for="jobTitle"> Job Title</label>
+                              </div>
+                              <div class="form-check">
+                                    <input class="form-check-input bio" type="checkbox" value="bio" id="bio">
+                                    <label class="form-check-label" for="bio"> Bio</label>
+                              </div>
+                              <div class="form-check">
+                                    <input class="form-check-input gender" type="checkbox" value="gender" id="gender">
+                                    <label class="form-check-label" for="gender"> Gender</label>
+                              </div>
+                              <button class="btn btn-primary mt-3 data-submit-btn" type="submit">Create Data</button>
+                        </form>
+                  </div>
+                  <div class="col-md-3">
+                        <div class="display-post">
+                        </div>
+                        <button class="copy">Copy</button>
+                  </div>
+            </div>
+      </div>
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+            integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./app.js" type="module"></script>
+</body>
+
+</html>
